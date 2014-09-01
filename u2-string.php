@@ -5,7 +5,7 @@
     
     echo $namn1 . " tar fina bilder på " . $namn2;
     
-    $jenni = strpos($namn2, "", 0, 8);
+    $jenni = substr($namn2, 0, 9);
     
-    echo $jenni;
+    echo "<br>" . $jenni;
 ?>
